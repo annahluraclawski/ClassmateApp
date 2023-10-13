@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990CE6EE2AD98DFB00443F64 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990CE6ED2AD98DFB00443F64 /* Student.swift */; };
 		99D2C9D72AD6E5AC00BAE9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2C9D62AD6E5AC00BAE9BB /* AppDelegate.swift */; };
 		99D2C9D92AD6E5AC00BAE9BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2C9D82AD6E5AC00BAE9BB /* SceneDelegate.swift */; };
 		99D2C9DB2AD6E5AC00BAE9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2C9DA2AD6E5AC00BAE9BB /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		990CE6ED2AD98DFB00443F64 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		99D2C9D32AD6E5AC00BAE9BB /* ClassmateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassmateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D2C9D62AD6E5AC00BAE9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D2C9D82AD6E5AC00BAE9BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				99D2C9D82AD6E5AC00BAE9BB /* SceneDelegate.swift */,
 				99D2C9DA2AD6E5AC00BAE9BB /* ViewController.swift */,
 				99D2C9DC2AD6E5AC00BAE9BB /* Main.storyboard */,
+				990CE6ED2AD98DFB00443F64 /* Student.swift */,
 				99D2C9E22AD6E5AE00BAE9BB /* Assets.xcassets */,
 				99D2C9E42AD6E5AE00BAE9BB /* LaunchScreen.storyboard */,
 				99D2C9E72AD6E5AE00BAE9BB /* Info.plist */,
@@ -264,6 +267,7 @@
 				99D2C9DB2AD6E5AC00BAE9BB /* ViewController.swift in Sources */,
 				99D2C9D72AD6E5AC00BAE9BB /* AppDelegate.swift in Sources */,
 				99D2C9D92AD6E5AC00BAE9BB /* SceneDelegate.swift in Sources */,
+				990CE6EE2AD98DFB00443F64 /* Student.swift in Sources */,
 				99D2C9E12AD6E5AC00BAE9BB /* ClassmateApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
