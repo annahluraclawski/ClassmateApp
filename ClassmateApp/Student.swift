@@ -8,6 +8,7 @@
 import Foundation
 
 enum Rating {
+    case INSANE
     case fire
     case mid
     case trash
