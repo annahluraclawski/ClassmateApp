@@ -7,17 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     var students : [Student] = []
     
     var i = 0
-    
-    let addName = addNameOutlet.text!
-    
-    let addHairColor = addHairColorOutlet.text!
-    
-    let addRating = addRatingOutlet.text!
     
     @IBOutlet weak var nameOutlet: UILabel!
     
@@ -43,6 +37,10 @@ class ViewController: UIViewController {
         let student1 = Student(name: "Gabi", hairColor: "Brown", rating: .INSANE)
         let student2 = Student(name: "Annahlu", hairColor: "Blonde", rating: .fire)
         let student3 = Student(name: "Avery", hairColor: "Ginger", rating: .trash)
+        
+        addNameOutlet.delegate = self
+        addHairColorOutlet.delegate = self
+        addRatingOutlet.delegate = self
         
         students.append(student1)
         students.append(student2)
@@ -85,7 +83,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addStudentButton(_ sender: UIButton) {
-        students.append(Student(name: addName, hairColor: addHairColor, rating: .fire))
+        
+        let addName = addNameOutlet.text!
+        
+        let addHairColor = addHairColorOutlet.text!
+        
+        let addRating = addRatingOutlet.text!
+        
+        var rating : Rating!
+    
+        if addRating == "fire" {
+            rating = .fire
+        }
+        else if addRating == "mid" {
+            rating = .mid
+        }
+        else if addRating == "trash" {
+            rating = .trash
+        }
+        else {
+            rating = .fire
+        }
+        
+        students.append(Student(name: addName, hairColor: addHairColor, rating: rating))
     }
     
 }
